@@ -1,0 +1,159 @@
+.navbar-pages2 {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 888;
+
+  background-color: var(--digital-blue);
+}
+
+.div-block-14 {
+  position: relative;
+  z-index: 999;
+
+  max-width: 1440px;
+  margin: 40px auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .div-block-14 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-14 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.nav-menu-2 {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-menu-2 {
+    height: 100vh;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+    background-color: var(--digital-blue);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu-2 {
+    height: 200vh;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .nav-menu-2 {
+    height: 100vh;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: var(--digital-blue);
+  }
+}
+
+.menu-btn {
+  padding: 5px 20px;
+
+  border: 1px solid var(--white);
+  border-radius: 100px;
+
+  transition: all 400ms ease;
+
+  color: var(--white);
+  font-style: normal;
+}
+
+.menu-btn:hover {
+  background-color: var(--white);
+  transform: translate(0px, -5px);
+  color: var(--digital-blue);
+}
+
+.menu-btn:global(.w--current) {
+  color: var(--white);
+}
+
+.menu-btn:global(.w--current):hover {
+  color: var(--digital-blue);
+}
+
+@media screen and (max-width: 991px) {
+  .menu-btn {
+    margin-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu-btn {
+    margin-bottom: 24px;
+  }
+}
+
+.menu-btn.contact {
+  background-color: var(--neon-lime);
+  color: var(--digital-blue);
+}
+
+.menu-btn.contact:hover {
+  background-color: var(--white);
+  color: var(--digital-blue);
+}
+
+@media screen and (max-width: 991px) {
+  .menu-button {
+    margin-top: -10px;
+    color: var(--white);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .menu-button:global(.w--open) {
+    background-color: var(--digital-blue);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu-button {
+    margin-top: -7px;
+    background-color: var(--digital-blue);
+    color: var(--white);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu-button:global(.w--open) {
+    background-color: var(--digital-blue);
+  }
+}
+
+.menu-lottie {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .menu-lottie {
+    width: 50px;
+  }
+}

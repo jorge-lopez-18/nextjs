@@ -1,0 +1,129 @@
+.navbar-3 {
+  background-color: var(--white);
+}
+
+.container-28 {
+  margin-top: 8px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .container-28 {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container-28 {
+    padding-left: 16px;
+  }
+}
+
+.mt-logo {
+  padding-top: 4px;
+}
+
+.nav-menu-2 {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-menu-2 {
+    height: 100vh;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+    background-color: var(--digital-blue);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu-2 {
+    height: 200vh;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .nav-menu-2 {
+    height: 100vh;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: var(--digital-blue);
+  }
+}
+
+.menu-btn-black {
+  padding: 8px 16px;
+
+  border: 1px solid var(--black);
+  border-radius: 100px;
+
+  transition: border-radius 200ms cubic-bezier(.77, 0, .175, 1),background-color 200ms cubic-bezier(.77, 0, .175, 1);
+
+  font-family: Outfit;
+  color: var(--black);
+  font-size: 20px;
+}
+
+.menu-btn-black:hover {
+  border-radius: 8px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.menu-btn {
+  padding: 5px 20px;
+
+  border: 1px solid var(--white);
+  border-radius: 100px;
+
+  transition: all 400ms ease;
+
+  color: var(--white);
+  font-style: normal;
+}
+
+.menu-btn:hover {
+  background-color: var(--white);
+  transform: translate(0px, -5px);
+  color: var(--digital-blue);
+}
+
+.menu-btn:global(.w--current) {
+  color: var(--white);
+}
+
+.menu-btn:global(.w--current):hover {
+  color: var(--digital-blue);
+}
+
+@media screen and (max-width: 991px) {
+  .menu-btn {
+    margin-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .menu-btn {
+    margin-bottom: 24px;
+  }
+}
+
+.menu-btn.contact {
+  background-color: var(--neon-lime);
+  color: var(--digital-blue);
+}
+
+.menu-btn.contact:hover {
+  background-color: var(--white);
+  color: var(--digital-blue);
+}

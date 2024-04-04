@@ -1,0 +1,37 @@
+.services {
+  overflow: hidden;
+  background-color: var(--black);
+}
+
+.container-service {
+  display: flex;
+  max-width: 1440px;
+  padding: 20px 20px 0px;
+  flex-direction: column;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .container-service {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.landing-title-div {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 479px) {
+  .landing-title-div {
+    padding-bottom: 20px;
+  }
+}
+
+.fs1.light {
+  color: var(--light-grey);
+}

@@ -1,0 +1,154 @@
+.services-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .services-mobile {
+    display: block;
+    padding-bottom: 20px;
+    background-color: var(--black);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service-grid-wrap {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding-top: 20px;
+
+    border-radius: 24px;
+
+    background-color: var(--black);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .service-grid-wrap {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid-6 {
+    grid-template-rows: auto auto auto auto auto auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .grid-6 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services-mobile-div {
+    display: flex;
+    padding: 0px 0px 20px 20px;
+    align-items: flex-start;
+    color: var(--white);
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .services-mobile-div {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service-list-items {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b37a-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b37d-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b380-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b383-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b386-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b389-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b38c-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b38f-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b392-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b395-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b398-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b39b-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b39e-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+  #w-node-a82c9f0b-74a7-dfba-5fa5-d3140798b3a1-0798b377 {
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+  }
+}

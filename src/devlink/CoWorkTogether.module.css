@@ -1,0 +1,149 @@
+.work-together-section {
+  background-color: var(--black);
+}
+
+@media screen and (max-width: 991px) {
+  .work-together-section {
+    margin-top: -16px;
+  }
+}
+
+.yellow-wrap {
+  position: relative;
+  z-index: 777;
+
+  width: auto;
+  height: 300px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 29px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px 20px 0px 0px;
+
+  background-color: var(--neon-lime);
+}
+
+.card_sg_wrap--bw1-br2-pd2 {
+  position: relative;
+  height: 100%;
+  align-items: flex-start;
+  border: 0px none transparent;
+}
+
+.card_sg_wrap--bw1-br2-pd2.hero {
+  z-index: 444;
+
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 25vh;
+  margin-left: 0vw;
+  align-items: center;
+
+  border: 1px none transparent;
+}
+
+@media screen and (min-width: 1920px) {
+  .card_sg_wrap--bw1-br2-pd2.hero {
+    max-width: 50vw;
+    margin-left: 28vw;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card_sg_wrap--bw1-br2-pd2.hero {
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .card_sg_wrap--bw1-br2-pd2.hero {
+    z-index: 10;
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_sg_wrap--bw1-br2-pd2.hero {
+    width: 75%;
+    height: 100%;
+    margin-bottom: 0vh;
+    margin-left: -22vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .card_sg_wrap--bw1-br2-pd2.hero {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    margin-left: 0vw;
+  }
+}
+
+.card_sg_wrap--bw1-br2-pd2.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div-block-22 {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.fs1.light {
+  color: var(--light-grey);
+}
+
+.get-in-touch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fs7-1.light {
+  color: var(--light-grey);
+}
+
+.fs7-1.work {
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  background-color: var(--f2f4fa);
+}
+
+.work {
+  margin-top: -2px;
+  background-color: var(--light-grey);
+  transition: none 0ms ease;
+}
+
+@media screen and (max-width: 991px) {
+  .work {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .work {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .work {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
